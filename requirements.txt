@@ -1,0 +1,6 @@
+django
+BeautifulSoup
+psycopg2
+boto
+smtplib
+
