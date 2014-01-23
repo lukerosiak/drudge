@@ -12,7 +12,7 @@ Live version is at www.lukerosiak.info/drudge.html
 
 Uses Django for a tiny amount of convenience, but probably winds up only making it more complicated than it needs to be. You have to use PostgreSQL as the backend because of some hard-coded SQL.
 
-Set your settings in settings.py and credentials.py, "pip install -r requirements.txt", create a psql db called drudge with "createdb drudge" and run python manage.py syncdb
+Rename settings_example.py and credentials_example.py to settings.py and credentials.py and set your settings, "pip install -r requirements.txt", create a psql db called drudge with "createdb drudge" and run python manage.py syncdb
 
 
 Then set it up to to run every 5 minutes thusly (on Linux):
